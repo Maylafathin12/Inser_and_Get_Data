@@ -84,15 +84,6 @@ namespace Inser_and_Get_Data
                                                 }
 
                                                 break;
-                                            case '2':
-                                                {
-                                                    Console.Write("\nMasukkan kode menu" + " Menu yang akan dihapus: ");
-                                                    int kode_menu = Convert.ToInt32(Console.ReadLine());
-                                                    Console.WriteLine();
-                                                    if (conn.(kode_menu) == false)
-                                                        Console.WriteLine("\nId bARANG " + kode_menu + " dihapus ");
-                                                }
-                                                break;
                                             case '6':
                                                 conn.Close();
                                                 return;
