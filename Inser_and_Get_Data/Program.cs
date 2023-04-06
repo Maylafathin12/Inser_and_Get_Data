@@ -70,7 +70,7 @@ namespace Inser_and_Get_Data
                                                     Console.WriteLine("Masukkan NAMA MENU :");
                                                     string nama_menu = Console.ReadLine();
                                                     Console.WriteLine("Masukkan STOCK MENU :");
-                                                    string stok_menu = Console.ReadLine();
+                                                    string stok_menu = Console.ReadLine(); 
                                                     Console.WriteLine("Masukkan HARGA MENU :");
                                                     string harga_menu = Console.ReadLine();
                                                     try
